@@ -17,7 +17,7 @@ getTodos(function (err, data) {
     err ? console.log(err) : console.log(data);
 })
 
-console.log('--------------------------------')
+console.log('--------------------------------');
 
 
 //Callback Hell
