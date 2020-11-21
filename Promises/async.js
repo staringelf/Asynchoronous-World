@@ -4,7 +4,7 @@ const getTodos = function (){
 
         request.addEventListener('readystatechange', function () {
             if(this.readyState === 4 && this.status === 200){
-                resolve(this.responseText);
+                resolve(this);
             } else if (this.readyState === 4){
                 reject("Error: Couldn't fetch data");
             }
